@@ -126,8 +126,8 @@
     "dateTime": "23/03/2022, 09:30:31",
     "comments": "",
     "emojiCount": [
-      2,
-      2,
+      3,
+      3,
       1
     ]
   },
@@ -138,9 +138,21 @@
     "dateTime": "23/03/2022, 09:41:15",
     "comments": "",
     "emojiCount": [
-      1,
+      2,
       0,
       1
+    ]
+  },
+  {
+    "storyTitle": "I am sad when sami abandons us",
+    "storyEntry": "hello nowshad",
+    "gifSearch": "https://media4.giphy.com/media/d2lcHJTG5Tscg/200.gif?cid=721f8d78imb4h1fpiu9j8c75ea85owwro5iv0nynae7to1nr&rid=200.gif&ct=g",
+    "dateTime": "3/23/2022, 10:04:28 AM",
+    "comments": "",
+    "emojiCount": [
+      1,
+      5,
+      5
     ]
   }
 ]
