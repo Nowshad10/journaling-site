@@ -36,4 +36,9 @@ We took inspiration from www.fmylife.com. To differentiate ours to avoid copyrig
 - Comments displayed with date.time stamp
 - Login username/password for users
 
+### Interesting Code
+
+{commentSubmit.addEventListener('click', function() { 
+        sendComment(item.id);
+    });}
 
