@@ -71,7 +71,7 @@ async function postStoryData(e) {
     const jsonObject = {...formDataSerialised, id: count, dateTime: current, comments: [], gifSearch: gifUrl, emojiCount: [0,0,0]}
     console.log(jsonObject)
     try{
-        const response = await fetch ("http://localhost:3000/entries", {
+        const response = await fetch ("https://my-random-story.herokuapp.com/entries", {
         method: 'POST', 
         body: JSON.stringify(jsonObject),
         headers: {
@@ -90,7 +90,7 @@ async function postStoryData(e) {
 
 
 // fetching data from backend
-fetch('http://localhost:3000/entries')
+fetch('https://my-random-story.herokuapp.com/entries')
 .then(resp => resp.json())
 .then(resp => {
     console.log(resp)
@@ -174,7 +174,7 @@ list.prepend(li)
 
 function emojiIncrease(id,emoji){
     console.log(id)
-    fetch('http://localhost:3000/emojiUpdate', {
+    fetch('https://my-random-story.herokuapp.com/emojiUpdate', {
       method: 'PUT',
       body: JSON.stringify({ id: id, emoji: emoji }),
       headers: { 'Content-Type': 'application/json' },
@@ -187,7 +187,7 @@ function emojiIncrease(id,emoji){
 function sendComment(id) {
     const textboxValue = document.getElementById(`${id}`).value
     console.log(textboxValue);
-    fetch('http://localhost:3000/comments', {
+    fetch('https://my-random-story.herokuapp.com/comments', {
       method: 'PUT',
       body: JSON.stringify({ comment: textboxValue, id: id}),
       headers: { 'Content-Type': 'application/json' },

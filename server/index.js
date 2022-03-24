@@ -56,6 +56,8 @@ app.put('/emojiUpdate', (req, res)=>{
  })
 
 
+
+ 
  app.put('/comments', (req, res)=>{
      console.log(req.body)
     const idx =req.body.id;
