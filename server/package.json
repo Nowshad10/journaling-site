@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "dev": "nodemon index.js",
-    "build": "concurrently \"watchify ../client/script.js -o bundle.js\" \"python -m http.server\""
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
