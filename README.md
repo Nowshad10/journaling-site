@@ -39,7 +39,9 @@ We took inspiration from www.fmylife.com. To differentiate ours to avoid copyrig
 ### Interesting Code
 
 example 1 - passing parameters into an event listener 
-        commentSubmit.addEventListener('click', function() { 
-                sendComment(item.id);
-        });
+```
+commentSubmit.addEventListener('click', function() { 
+        sendComment(item.id);
+});
+```
 
