@@ -5,7 +5,7 @@
 const express = require('express');
 const request = require('supertest');
 // import server
-const app = require('../app');
+const app = require('../index');
 
 describe('API server', () => {
     let api;

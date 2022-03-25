@@ -13,10 +13,6 @@ body{
 }
 
 
-h2{
-    color: pink;
-}
-
 
 #navbar {
     display: flex;
@@ -110,8 +106,6 @@ header{
     padding: 20px;
     font-size: 200%;
     text-align: center;
-/*     border: 20pt;
-    border-color: pink; */
 }
 
 .rubberduckieheader{
@@ -119,12 +113,15 @@ header{
     float: right;
     
 }
-/* submit btn color */
-body > section > div > form > div:nth-child(4) > button.btn.btn-primary.mx-1 {
-    background-color: palevioletred;
+
+
+#s\/button {
+    background-color: pale;
 }
 
-.post{
+
+.apost{
+    text-align: center;
 }
 
 .postTitle{
